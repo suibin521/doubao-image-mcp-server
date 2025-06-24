@@ -1,9 +1,5 @@
 [project]
-<<<<<<< HEAD
 name = "doubao_image_mcp_server"
-=======
-name = "doubao-image-mcp-server"
->>>>>>> c9df404282c86290a94da00488a28f812235bd54
 version = "1.0.0"
 description = "Image generation MCP server based on Doubao API"
 readme = "README.md"
@@ -17,31 +13,21 @@ dependencies = [
 ]
 authors = [{name = "suibin521", email = "your-email@example.com"}]
 classifiers = [
-<<<<<<< HEAD
-    "Development Status :: 4 - Beta",
-=======
     "Development Status :: 5 - Production/Stable",
->>>>>>> c9df404282c86290a94da00488a28f812235bd54
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.13",
-<<<<<<< HEAD
-=======
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Multimedia :: Graphics",
->>>>>>> c9df404282c86290a94da00488a28f812235bd54
 ]
 
 [project.urls]
 Homepage = "https://github.com/suibin521/doubao-image-mcp-server"
 Repository = "https://github.com/suibin521/doubao-image-mcp-server"
-<<<<<<< HEAD
-=======
 "Bug Tracker" = "https://github.com/suibin521/doubao-image-mcp-server/issues"
 Documentation = "https://github.com/suibin521/doubao-image-mcp-server#readme"
->>>>>>> c9df404282c86290a94da00488a28f812235bd54
 
 [project.scripts]
 doubao-image-mcp-server = "doubao_mcp_server:main"
