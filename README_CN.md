@@ -27,16 +27,31 @@ git clone git@github.com:suibin521/doubao-image-mcp-server.git
 cd doubao-image-mcp-server
 ```
 
-### 3.2 安装依赖
+### 3.2 安装方式
 
-使用uv（推荐）:
+#### 方式一：使用 uvx 直接运行（推荐）
 ```bash
-uv sync
+# 直接从 PyPI 安装并运行
+uvx doubao_image_mcp_server
 ```
 
-或使用pip:
+#### 方式二：使用 uv 安装到项目
 ```bash
+# 安装到当前项目
+uv add doubao_image_mcp_server
+```
+
+#### 方式三：开发者安装
+```bash
+# 克隆仓库后，在项目根目录执行
+uv sync
+# 或使用 pip
 pip install -e .
+```
+
+#### 方式四：传统 pip 安装
+```bash
+pip install doubao_image_mcp_server
 ```
 
 ### 3.3 配置环境变量
