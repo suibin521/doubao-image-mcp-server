@@ -312,7 +312,6 @@ doubao-image-mcp-server/
 ├── LICENSE                # 开源许可证
 ├── README.md              # 英文项目文档
 ├── README_CN.md           # 中文项目文档
-├── mcp_json.md            # MCP配置文档
 └── images/                # 文档图片目录
     ├── create_api_key.jpg
     ├── create_inference_endpoint.jpg
