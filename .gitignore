@@ -1,8 +1,20 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+=======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+>>>>>>> c9df404282c86290a94da00488a28f812235bd54
 .Python
 build/
 develop-eggs/
@@ -23,6 +35,11 @@ share/python-wheels/
 PIPFILE.lock
 
 # PyInstaller
+<<<<<<< HEAD
+=======
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+>>>>>>> c9df404282c86290a94da00488a28f812235bd54
 *.manifest
 *.spec
 
@@ -49,6 +66,7 @@ cover/
 *.mo
 *.pot
 
+<<<<<<< HEAD
 # Environment variables
 .env
 
@@ -60,6 +78,8 @@ log/
 # images/
 # test_images/
 
+=======
+>>>>>>> c9df404282c86290a94da00488a28f812235bd54
 # Django stuff:
 *.log
 local_settings.py
@@ -88,6 +108,7 @@ profile_default/
 ipython_config.py
 
 # pyenv
+<<<<<<< HEAD
 .python-version
 
 # pipenv
@@ -100,6 +121,35 @@ poetry.lock
 .pdm.toml
 
 # PEP 582
+=======
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+>>>>>>> c9df404282c86290a94da00488a28f812235bd54
 __pypackages__/
 
 # Celery stuff
@@ -143,6 +193,7 @@ dmypy.json
 cython_debug/
 
 # PyCharm
+<<<<<<< HEAD
 .idea/
 
 # VS Code
@@ -178,3 +229,17 @@ config.json
 # images/
 generated/
 output/
+=======
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be added to the global gitignore or merged into this project gitignore.  For a PyCharm
+#  project, it is recommended to exclude the entire .idea directory.
+.idea/
+
+# Project specific
+log/
+*.log
+images/
+mcp_json.md
+.DS_Store
+Thumbs.db
+>>>>>>> c9df404282c86290a94da00488a28f812235bd54

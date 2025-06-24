@@ -1,4 +1,4 @@
-# Doubao Image MCP Server
+# Doubao Image Generation MCP Server
 
 An image generation MCP server based on FastMCP framework and Volcano Engine API, supporting high-quality image generation through Doubao (doubao-seedream-3.0-t2i) model.
 
@@ -158,7 +158,7 @@ Add the following configuration to your MCP configuration file:
     "doubao_image_mcp_server": {
       "command": "uvx",
       "args": [
-        "doubao-image-mcp-server"
+        "doubao_image_mcp_server"
       ],
       "env": {
         "BASE_URL": "https://ark.cn-beijing.volces.com/api/v3",
@@ -288,7 +288,7 @@ Provides prompt templates for image generation, including all parameter descript
 ## 5. Project Structure
 
 ```
-doubao_image_mcp_server/
+doubao-image-mcp-server/
 ├── doubao_mcp_server.py    # Main MCP server
 ├── doubao_image_gen.py     # Core image generation tool
 ├── pyproject.toml          # Project configuration and dependency management
