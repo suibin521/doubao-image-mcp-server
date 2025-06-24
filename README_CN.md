@@ -32,7 +32,7 @@ cd doubao-image-mcp-server
 #### 方式一：使用 uvx 直接运行（推荐）
 ```bash
 # 直接从 PyPI 安装并运行
-uvx doubao_image_mcp_server
+uvx doubao-image-mcp-server
 ```
 
 #### 方式二：使用 uv 安装到项目
@@ -173,7 +173,7 @@ https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement?LLM=%7B%
     "doubao_image_mcp_server": {
       "command": "uvx",
       "args": [
-        "doubao_image_mcp_server"
+        "doubao-image-mcp-server"
       ],
       "env": {
         "BASE_URL": "https://ark.cn-beijing.volces.com/api/v3",

@@ -32,7 +32,7 @@ cd doubao-image-mcp-server
 #### Method 1: Using uvx for Direct Execution (Recommended)
 ```bash
 # Install and run directly from PyPI
-uvx doubao_image_mcp_server
+uvx doubao-image-mcp-server
 ```
 
 #### Method 2: Using uv to Install to Project
@@ -173,7 +173,7 @@ Add the following configuration to your MCP configuration file:
     "doubao_image_mcp_server": {
       "command": "uvx",
       "args": [
-        "doubao_image_mcp_server"
+        "doubao-image-mcp-server"
       ],
       "env": {
         "BASE_URL": "https://ark.cn-beijing.volces.com/api/v3",

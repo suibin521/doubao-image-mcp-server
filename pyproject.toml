@@ -1,6 +1,6 @@
 [project]
 name = "doubao_image_mcp_server"
-version = "1.0.0"
+version = "1.0.1"
 description = "Image generation MCP server based on Doubao API"
 readme = "README.md"
 requires-python = ">=3.13"
@@ -43,10 +43,6 @@ packages = ["doubao_image_gen.py", "doubao_mcp_server.py"]
 include = [
     "doubao_image_gen.py",
     "doubao_mcp_server.py",
-<<<<<<< HEAD
-    "main.py",
-=======
->>>>>>> c9df404282c86290a94da00488a28f812235bd54
     "README.md",
     "README_CN.md",
     "LICENSE",
